@@ -28,7 +28,7 @@ twitter_username: N/A
 github_username:  s240440
 
 # Build settings
-theme: minima
+theme: Architect
 plugins:
   - jekyll-feed
 
