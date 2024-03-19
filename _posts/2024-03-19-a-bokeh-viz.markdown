@@ -6,4 +6,4 @@ categories: jekyll update
 ---
 This shows a Bokeh viz, made during the week 6 exercises.
 
-<iframe src="/assets/bokeh_plot.html" width="100%" height="600" frameborder="0"></iframe>
+Check out this [Interactive Bokeh Visualization](/bokeh_plot.html) of our data analysis.
