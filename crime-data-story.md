@@ -23,7 +23,7 @@ permalink: /crime-data-story/
   <p>Present the core of your story. Detail the insights you've discovered from the data and what they mean for the reader and the community.</p>
 
   <!-- Visualization 1: Time-Series or Bar Chart -->
-  ![Time Series Chart of Crime Trends](/assets/Calendar.png)
+  ![Time Series Chart of Crime Trends](https://github.com/s240440/s240440.github.io/blob/main/assets/Calendar.png?raw=true)
 
   <!-- Visualization 2: Map -->
   ![Map of Crime in San Francisco](/assets/crime-map.png)
