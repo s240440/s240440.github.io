@@ -40,10 +40,73 @@
         {% endif %}
       </header>
       <section>
-
-      {{ content }}
-
+        <!-- Begin the story content area -->
+      
+        <!-- Story Title -->
+        <article class="story">
+          <header class="story-header">
+            <h2 class="story-title">The Changing Face of Crime in San Francisco</h2>
+            <p class="story-byline">An in-depth look at the city's evolving crime landscape</p>
+          </header>
+      
+          <!-- Introduction -->
+          <div class="story-introduction">
+            <p>Introduction to the data story, setting the scene for the reader.</p>
+          </div>
+      
+          <!-- Main Content -->
+          <div class="story-main-content">
+            <h3>Background Information</h3>
+            <p>Information about the data source, significance, and relevance.</p>
+      
+            <h3>Main Analysis</h3>
+            <p>Detailed analysis, presented in an engaging and accessible way.</p>
+      
+            <!-- Embed visualizations in the flow of the content -->
+            <div class="visualization">
+              <!-- Visualization 1: Time-Series or Bar Chart -->
+              <img src="/assets/images/time-series-chart.png" alt="Time Series Chart of Crime Trends">
+            </div>
+      
+            <div class="visualization">
+              <!-- Visualization 2: Map -->
+              <img src="/assets/images/crime-map.png" alt="Map of Crime in San Francisco">
+            </div>
+      
+            <div class="visualization">
+              <!-- Visualization 3: Interactive Bokeh Visualization -->
+              <!-- Bokeh scripts and divs go here -->
+            </div>
+      
+            <!-- Additional story content -->
+            <p>Further insights, interpretations, and conclusions from the data.</p>
+          </div>
+      
+          <!-- Conclusion -->
+          <div class="story-conclusion">
+            <h3>Conclusion</h3>
+            <p>A summarization of the findings and their potential impact or importance.</p>
+          </div>
+        </article>
+        
+        <!-- References or Further Reading -->
+        <aside class="references">
+          <h4>References</h4>
+          <ul>
+            <li>Link to data source or related research.</li>
+            <!-- Additional references -->
+          </ul>
+        </aside>
+      
+        <!-- Author Bio -->
+        <aside class="author-info">
+          <h4>About the Author</h4>
+          <p>Brief author biography and contact information.</p>
+        </aside>
+      
+        <!-- End of story content area -->
       </section>
+      
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
