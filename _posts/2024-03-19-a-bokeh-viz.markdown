@@ -6,10 +6,4 @@ categories: jekyll update
 ---
 This shows a Bokeh viz, made during the week 6 exercises.
 
-<script 
-       type="text/html" 
-       src="/bokeh.html"
-       width="600"
-       height="400"
->
-</script>
+<script src="/bokeh.html"></script>
