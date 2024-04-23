@@ -4,3 +4,4 @@ show_downloads: true
 google_analytics:
 theme: bubbling-ale
 url: https://s240440.github.io/
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
