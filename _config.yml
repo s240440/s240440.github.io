@@ -2,6 +2,7 @@ title: Bubbling Ale theme
 description: Bubbling ale is a clean, crisp, refreshing theme for Jekyll pages with a bit of a malty finish.
 show_downloads: true
 google_analytics:
-theme: bubbling-ale
+#theme: bubbling-ale
+remote_theme: FoamFactory/bubbling-ale
 url: https://s240440.github.io/
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
