@@ -2,7 +2,7 @@
 layout: default
 
 title: Beer Reviews
-A data-driven story told by Group 15  # This sets the page-specific title.
+subtitle: A data-driven story told by Group 15
 
 authors:
   - name: Martin Nguyen - 
