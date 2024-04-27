@@ -22,8 +22,8 @@ toc:
     #   - name: Example Child Subsection 2
 ---      
 
-## Introduction 
+# Introduction 
 *Insert text here*
 
-## Title
+# Title
 

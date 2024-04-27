@@ -1,6 +1,6 @@
 title: Beer Reviews
 description: A data-driven story told by Group 15
-show_downloads: true
+show_downloads: false
 google_analytics:
 #theme: bubbling-ale
 remote_theme: FoamFactory/bubbling-ale
