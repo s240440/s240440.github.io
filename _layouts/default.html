@@ -8,9 +8,15 @@
     {% include header.html %}
 
     <main id="content" class="main-content" role="main">
+      <!-- Authors -->
+      {% if page.authors %}
+        {% include authors.html %}
+      {% endif %}
+
       <!-- Table of Contents -->
       {{ content | toc_generate }} <!-- This generates the TOC -->
-      
+
+      <!-- Main Content -->
       {{ content }}
       {% include footer.html %}
     </main>
