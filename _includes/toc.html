@@ -1,0 +1,9 @@
+<nav class="table-of-contents">
+    <h2>Contents</h2>
+    <ul>
+      {% for item in page.toc %}
+        <li><a href="#{{ item.name | slugify }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  

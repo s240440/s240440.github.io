@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   {% include head.html %}
 
   <body>
@@ -8,10 +8,12 @@
     {% include header.html %}
 
     <main id="content" class="main-content" role="main">
+      <!-- Table of Contents -->
+      {{ content | toc_generate }} <!-- This generates the TOC -->
+      
       {{ content }}
       {% include footer.html %}
     </main>
-  </body>
 
-  {% include scripts.html %}
+    {% include scripts.html %}
 </html>
