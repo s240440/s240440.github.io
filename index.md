@@ -1,6 +1,7 @@
 ---
 layout: default
 
+title: Beer Reviews  # This sets the page-specific title.
 
 authors:
   - name: Martin Nguyen
@@ -12,15 +13,9 @@ authors:
   - name: Sarah Hecht Petersen
     affiliations:
       name: s240440
-
-toc:
-  - name: Introduction
-  - name: Title
-    # if a section has subsections, you can add them as follows:
-    # subsections:
-    #   - name: Example Child Subsection 1
-    #   - name: Example Child Subsection 2
 ---      
+
+* * *
 
 # Introduction 
 *Insert text here*
