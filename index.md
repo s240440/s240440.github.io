@@ -39,6 +39,6 @@ authors:
 
 * * *
 
-# Link to assignment 2:
-[Assignment 2](https://m-nguyen98.github.io/blog/2024/homework2/)
+### Link to assignment 2:
+[https://m-nguyen98.github.io/blog/2024/homework2/](https://m-nguyen98.github.io/blog/2024/homework2/)
 
