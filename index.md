@@ -21,11 +21,18 @@ authors:
 ## Introduction 
 *Insert text here*
 
-## Title
+## Beer reviews from data
 *Insert text here*
 
-## Title
+## Top rated beer
 *Insert text here*
+
+<div class="l-page" style="max-width: 100%;">
+  <img src="{{ '/assets/plotly/Top10RatedBeers.png' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 0px">
+</div>
+<div id="figure1" class="caption">
+    Figure 1: Top 10 rated beers based on average rating.
+</div>
 
 ## Title
 *Insert text here*
