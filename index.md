@@ -37,8 +37,3 @@ authors:
 ## References
 <a name="ref1">1</a>: Template [Insert link here](Insert link here)
 
-* * *
-
-### Link to assignment 2:
-[https://m-nguyen98.github.io/blog/2024/homework2/](https://m-nguyen98.github.io/blog/2024/homework2/)
-
