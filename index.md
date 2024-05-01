@@ -19,7 +19,8 @@ authors:
 * * *
 
 ## Introduction 
-*Insert text here*
+Introduction
+Humans consume many different kinds of beverages through life, where the alcoholic beverage, beer, is among the top 10 most consumed beverages across the world. A diverse beverage that brings many people pleasure through life, comes in different colors and offers different tastes. [[1]](#ref1) Besides being a top consumed beverage, it is also known for being one of the oldest human-produced beverages, originating more than 5000 years ago and was done by the Sumerians of ancient Mesopotamia. [[2]](#ref2) While it originates many years back, the commercial brewing as known today, began in 13th century in Germany, England and Austria. [[3]](#ref3) Looking at modern times, beer is being brewed in almost every country, which gives a variety of beers to choose and many opinions, which gives the question: *”Which beer is the best?”*. [[4]](#ref4) To answer this question, in this article, the beer review dataset from **RateBeer** will be examined by looking at ratings and reviews of beers across breweries and countries. 
 
 ## Beer reviews from data
 *Insert text here*
@@ -42,5 +43,11 @@ authors:
 * * *
 
 ## References
-<a name="ref1">1</a>: Template [Insert link here](Insert link here)
+<a name="ref1">1</a>: Top 10 consumed beverages [https://nawon.com.vn/top-10-worlds-most-consumed-beverage/](https://nawon.com.vn/top-10-worlds-most-consumed-beverage/)
+
+<a name="ref2">2</a>: Who invented beer [https://www.history.com/news/who-invented-beer](https://www.history.com/news/who-invented-beer)
+
+<a name="ref3">3</a>: Where did beer originate from [https://www.brewscruise.com/blog/where-did-beer-originate-from/](https://www.brewscruise.com/blog/where-did-beer-originate-from/)
+
+<a name="ref4">4</a>: Beer in different countries [https://craftbeerme.com/beer-in-different-countries/](https://craftbeerme.com/beer-in-different-countries/)
 
