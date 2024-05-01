@@ -38,7 +38,7 @@ Humans consume many different kinds of beverages through life, where the alcohol
   <img src="{{ '/assets/plotly/Top10Locations.png' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 0px">
 </div>
 <div id="figure2" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 1: Top 10 location based on beer reviews.
+    Figure 2: Top 10 locations based on beer reviews.
 </div>
 
 ## Title
