@@ -30,7 +30,7 @@ authors:
 <div class="l-page" style="max-width: 100%;">
   <img src="{{ '/assets/plotly/Top10RatedBeers.png' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 0px">
 </div>
-<div id="figure1" class="caption">
+<div id="figure1" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 1: Top 10 rated beers based on average rating.
 </div>
 
