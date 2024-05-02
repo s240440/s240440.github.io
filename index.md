@@ -55,6 +55,15 @@ Humans consume many different kinds of beverages through life, where the alcohol
 ## The Breweries 
 *Insert text here*
 
+## Test
+
+<div class="l-page" style="max-width: 100%;">
+  <img src="{{ '/assets/plotly/Bokeh.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 0px">
+</div>
+<div id="figure4" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 4: Test html
+</div>
+
 
 ## Conclusion
 
