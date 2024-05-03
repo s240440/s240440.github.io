@@ -91,12 +91,13 @@ Humans consume many different kinds of beverages through life, where the alcohol
 });
 </script>
 
-<ul class="bxslider">
-  <li><img src="/assets/plotly/Bottom10Breweries.png" alt="Bottom 10 Breweries"/></li>
-  <li><img src="/assets/plotly/Top10Breweries.png" alt="Top 10 Breweries"/></li>
-  <li><img src="/assets/plotly/Bottom10Locations.png" alt="Bottom 10 Locations"/></li>
-  <li><img src="/assets/plotly/Top10Locations.png" alt="Top 10 Locations"/></li>
-</ul>
+<div class="bxslider">
+  <div><img src="/assets/plotly/Bottom10Breweries.png" /></div>
+  <div><img src="/assets/plotly/Top10Breweries.png" /></div>
+  <div><img src="/assets/plotly/Bottom10Locations.png" /></div>
+  <div><img src="/assets/plotly/Top10Locations.png" /></div>
+</div>
+
 
 ## Test for HTML
 
