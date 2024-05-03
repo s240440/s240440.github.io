@@ -71,14 +71,6 @@ Humans consume many different kinds of beverages through life, where the alcohol
 
 ## Test for image slider
 
-<ul class="bxslider">
-  <li><img src="/assets/plotly/Bottom10Breweries.png" alt="Bottom 10 Breweries"/></li>
-  <li><img src="/assets/plotly/Top10Breweries.png" alt="Top 10 Breweries"/></li>
-  <li><img src="/assets/plotly/Bottom10Locations.png" alt="Bottom 10 Locations"/></li>
-  <li><img src="/assets/plotly/Top10Locations.png" alt="Top 10 Locations"/></li>
-</ul>
-
-
 <!-- Include jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
@@ -99,6 +91,13 @@ Humans consume many different kinds of beverages through life, where the alcohol
   });
 });
 </script>
+
+<ul class="bxslider">
+  <li><img src="/assets/plotly/Bottom10Breweries.png" alt="Bottom 10 Breweries"/></li>
+  <li><img src="/assets/plotly/Top10Breweries.png" alt="Top 10 Breweries"/></li>
+  <li><img src="/assets/plotly/Bottom10Locations.png" alt="Bottom 10 Locations"/></li>
+  <li><img src="/assets/plotly/Top10Locations.png" alt="Top 10 Locations"/></li>
+</ul>
 
 ## Test for HTML
 
