@@ -93,13 +93,9 @@ Humans consume many different kinds of beverages through life, where the alcohol
   $(document).ready(function(){
   $('.bxslider').bxSlider({
     mode: 'horizontal',
-    captions: true,
     pager: true,  // Shows pager dots; set to false if you don't want them
     controls: true,  // Shows next/prev controls; set to false if you don't want them
     pagerType: 'full',  // 'full' for dots; 'short' for numeric text
-    nextText: '',  // Empty string to hide text
-    prevText: '',  // Empty string to hide text
-    slideWidth: 600  // Adjust  // Optional: Dynamically adjust slider height
   });
 });
 </script>
