@@ -69,6 +69,21 @@ Humans consume many different kinds of beverages through life, where the alcohol
     Figure 5: Bottom 10 locations based on number of active breweries.
 </div>
 
+## Test for image slider
+
+<ul class="bxslider">
+  <li><img src="/assets/plotly/Bottom10Breweries.png" /></li>
+  <li><img src="/assets/plotly/Top10Breweries.png" /></li>
+  <li><img src="/assets/plotly/Bottom10Locations.png" /></li>
+  <li><img src="/assets/plotly/Top10Locations.png" /></li>
+</ul>
+
+<script>
+  $(document).ready(function(){
+    $('.bxslider').bxSlider();
+  });
+</script>
+
 ## Test for HTML
 
 <div class="l-page">
