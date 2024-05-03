@@ -70,27 +70,35 @@ Humans consume many different kinds of beverages through life, where the alcohol
 </div>
 
 ## Test for image slider
-<html>
-  <head>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="assets/javascripts/jquery.bxslider.min.js"></script>
-    <link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
-  </head>
-  <body>
-    <h1>BX Slider</h1>
-    <ul class="bxslider">
-        <li><img src="/assets/plotly/Bottom10Breweries.png" alt="Bottom 10 Breweries"/></li>
-        <li><img src="/assets/plotly/Top10Breweries.png" alt="Top 10 Breweries"/></li>
-        <li><img src="/assets/plotly/Bottom10Locations.png" alt="Bottom 10 Locations"/></li>
-        <li><img src="/assets/plotly/Top10Locations.png" alt="Top 10 Locations"/></li>
-    </ul>
-    <script>
-      $(document).ready(function(){
-        $(".bxslider").bxSlider();
-      })
-    </script>
-  </body>
-</html>
+
+<ul class="bxslider">
+  <li><img src="/assets/plotly/Bottom10Breweries.png" alt="Bottom 10 Breweries"/></li>
+  <li><img src="/assets/plotly/Top10Breweries.png" alt="Top 10 Breweries"/></li>
+  <li><img src="/assets/plotly/Bottom10Locations.png" alt="Bottom 10 Locations"/></li>
+  <li><img src="/assets/plotly/Top10Locations.png" alt="Top 10 Locations"/></li>
+</ul>
+
+
+<!-- Include jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Include bxSlider JavaScript file -->
+<script src="assets/javascripts/jquery.bxslider.min.js"></script>
+
+<!-- Include bxSlider CSS file -->
+<link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
+
+<!-- Initialize the slider -->
+<script>
+  $(document).ready(function(){
+  $('.bxslider').bxSlider({
+    mode: 'horizontal',
+    pager: true,  // Shows pager dots; set to false if you don't want them
+    controls: true,  // Shows next/prev controls; set to false if you don't want them
+    pagerType: 'full',  // 'full' for dots; 'short' for numeric text
+  });
+});
+</script>
 
 ## Test for HTML
 
