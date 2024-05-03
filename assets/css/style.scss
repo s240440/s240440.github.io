@@ -9,5 +9,6 @@
     max-width: 60rem; /* Adjusted from a smaller width */
     margin: auto;     /* Keeps it centered */
     padding: 20px;    /* Optional: Adjust padding to ensure content doesn’t touch the edges */
+    overflow-x: hidden; // Hide horizontal overflow
   }
   
