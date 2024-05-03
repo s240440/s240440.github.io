@@ -5,10 +5,17 @@
 
 @import "{{ site.theme }}";
 
-.main-content {
-    max-width: 60rem; /* Adjusted from a smaller width */
-    margin: auto;     /* Keeps it centered */
-    padding: 20px;    /* Optional: Adjust padding to ensure content doesn’t touch the edges */
-    overflow-x: hidden; // Hide horizontal overflow
-  }
-  
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* This will hide any horizontal overflow, preventing horizontal scrollbars */
+}
+
+.container, .wrapper, .main-content {
+    width: 100%;
+    max-width: 100%;  /* Ensures that the max width doesn't restrict the container */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Includes padding and border in the element's total width */
+}
