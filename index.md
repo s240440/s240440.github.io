@@ -71,29 +71,10 @@ Humans consume many different kinds of beverages through life, where the alcohol
 
 ## Test for image slider
 
-<!-- Include jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- Include bxSlider JavaScript file -->
-<script src="assets/javascripts/jquery.bxslider.min.js"></script>
-
-<!-- Include bxSlider CSS file -->
-<link href="assets/css/jquery.bxslider.css" rel="stylesheet" />
-
-<!-- Initialize the slider -->
-<script>
-  $(document).ready(function(){
-  $('.bxslider').bxSlider({
-  });
-});
-</script>
-
-<ul class="bxslider">
-  <li><img src="/assets/plotly/Bottom10Breweries.png" /></li>
-  <li><img src="/assets/plotly/Top10Breweries.png" /></li>
-  <li><img src="/assets/plotly/Bottom10Locations.png" /></li>
-  <li><img src="/assets/plotly/Top10Locations.png" /></li>
-</ul>
+<object data="_layouts/slider.html" type="text/html" width="100%" height="500px">
+  <!-- Fallback content in case the browser doesn't support the <object> tag or the file cannot be loaded -->
+  <p>Unable to load the slider. You can <a href="slider.html">view it here</a>.</p>
+</object>
 
 ## Test for HTML
 
