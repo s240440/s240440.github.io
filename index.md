@@ -87,7 +87,6 @@ Humans consume many different kinds of beverages through life, where the alcohol
     mode: 'horizontal',
     pager: true,  // Shows pager dots; set to false if you don't want them
     controls: true,  // Shows next/prev controls; set to false if you don't want them
-    pagerType: 'full',  // 'full' for dots; 'short' for numeric text
   });
 });
 </script>
