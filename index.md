@@ -50,10 +50,10 @@ Humans consume many different kinds of beverages through life, where the alcohol
     </script>
   </head>
   <body>
-    <ul class="bxslider">
-        <li><img src="/assets/plotly/Top10Locations.png" title="Figure 2: Top 10 Locations by Beer Reviews"/></li>
-        <li><img src="/assets/plotly/Bottom10Locations.png" title="Figure 3: Bottom 10 Locations by Beer Reviews"/></li>
-    </ul>
+    <div class="bxslider">
+        <div><img src="/assets/plotly/Top10Locations.png" title="Figure 2: Top 10 Locations by Beer Reviews"/></div>
+        <div><img src="/assets/plotly/Bottom10Locations.png" title="Figure 3: Bottom 10 Locations by Beer Reviews"/></div>
+    </div>
   </body>
 </html>
 
@@ -70,10 +70,10 @@ Humans consume many different kinds of beverages through life, where the alcohol
     </script>
   </head>
   <body>
-    <ul class="bxslider2">
-        <li><img src="/assets/plotly/Top10Breweries.png" title="Figure 4: Locations with the Most Active Breweries"/></li>
-        <li><img src="/assets/plotly/Bottom10Breweries.png" title="Figure 5: Locations with the Fewest Active Breweries" /></li>
-    </ul>
+    <div class="bxslider">
+    <div><img src="/assets/plotly/Top10Breweries.png" title="Figure 4: Locations with the Most Active Breweries"/></div>
+    <div><img src="/assets/plotly/Bottom10Breweries.png" title="Figure 5: Locations with the Fewest Active Breweries" /></div>
+    </div>
   </body>
 </html>
 
