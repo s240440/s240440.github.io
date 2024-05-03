@@ -90,8 +90,17 @@ Humans consume many different kinds of beverages through life, where the alcohol
 <!-- Initialize the slider -->
 <script>
   $(document).ready(function(){
-    $('.bxslider').bxSlider();
+  $('.bxslider').bxSlider({
+    pager: true,          // Enables the pager dots below the slider
+    controls: true,       // Enables the next and previous controls
+    auto: false,           // Optional: Auto-play the slides
+    autoControls: false,   // Optional: Start/Stop controls for auto-play
+    pause: 4000,          // Optional: Delay between transitions
+    mode: 'horizontal',   // Optional: Type of transition
+    adaptiveHeight: true  // Optional: Dynamically adjust slider height
   });
+});
+
 </script>
 
 ## Test for HTML
