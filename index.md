@@ -78,11 +78,9 @@ Humans consume many different kinds of beverages through life, where the alcohol
   <li><img src="/assets/plotly/Top10Locations.png" /></li>
 </ul>
 
-<script>
-  $(document).ready(function(){
-    $('.bxslider').bxSlider();
-  });
-</script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
 
 ## Test for HTML
 
