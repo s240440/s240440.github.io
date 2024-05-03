@@ -45,7 +45,6 @@ Humans consume many different kinds of beverages through life, where the alcohol
     <script>
       $(document).ready(function(){
         $(".bxslider").bxSlider(); 
-        mode: 'fade',
         captions: true,
       });
     </script>
@@ -66,15 +65,14 @@ Humans consume many different kinds of beverages through life, where the alcohol
     <script>
       $(document).ready(function(){
         $(".bxslider2").bxSlider(); 
-        mode: 'fade',
         captions: true,
       });
     </script>
   </head>
   <body>
     <ul class="bxslider2">
-        <li><img src="/assets/plotly/Top10Breweries.png" /></li>
-        <li><img src="/assets/plotly/Bottom10Breweries.png" /></li>
+        <li><img src="/assets/plotly/Top10Breweries.png" title="Figure 4: Locations with the Most Active Breweries"/></li>
+        <li><img src="/assets/plotly/Bottom10Breweries.png" title="Figure 5: Locations with the Fewest Active Breweries" /></li>
     </ul>
   </body>
 </html>
