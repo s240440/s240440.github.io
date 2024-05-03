@@ -79,7 +79,7 @@ Humans consume many different kinds of beverages through life, where the alcohol
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script>
       $(document).ready(function(){
-        $(".slider").bxSlider();
+        $(".bxslider").bxSlider(); 
       });
     </script>
   </head>
@@ -90,7 +90,6 @@ Humans consume many different kinds of beverages through life, where the alcohol
         <li><img src="/assets/plotly/Bottom10Locations.png" /></li>
         <li><img src="/assets/plotly/Top10Locations.png" /></li>
     </ul>
-
   </body>
 </html>
 
