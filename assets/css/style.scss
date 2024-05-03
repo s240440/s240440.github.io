@@ -6,9 +6,9 @@
 @import "{{ site.theme }}";
 
 .main-content {
-    max-width: 60rem; /* Adjusted from a smaller width */
-    margin: auto;     /* Keeps it centered */
-    padding: 20px;    /* Optional: Adjust padding to ensure content doesn’t touch the edges */
-    overflow-x: hidden; // Hide horizontal overflow
-  }
-  
+    width: 100%;        /* Occupy 100% of the available width */
+    max-width: 60rem;   /* Set maximum width for content */
+    margin: 0 auto;     /* Center the content horizontally */
+    padding: 20px;      /* Optional: Adjust padding to ensure content doesn’t touch the edges */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
