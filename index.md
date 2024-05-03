@@ -45,14 +45,22 @@ Humans consume many different kinds of beverages through life, where the alcohol
     <script>
       $(document).ready(function(){
         $(".bxslider").bxSlider(); 
+        mode: 'fade',
+        captions: true,
       });
     </script>
   </head>
   <body>
-    <ul class="bxslider">
-        <li><img src="/assets/plotly/Top10Locations.png" /></li>
-        <li><img src="/assets/plotly/Bottom10Locations.png" /></li>
-    </ul>
+<ul class="bxslider">
+    <li>
+        <img src="/assets/plotly/Top10Locations.png" />
+        <div id="figure2" class="caption">Figure 2: Top 10 Locations by Beer Reviews</div>
+    </li>
+    <li>
+        <img src="/assets/plotly/Bottom10Locations.png" />
+        <div id="figure3" class="caption">Figure 3: Bottom 10 Locations by Beer Reviews</div>
+    </li>
+</ul>
   </body>
 </html>
 
@@ -64,6 +72,8 @@ Humans consume many different kinds of beverages through life, where the alcohol
     <script>
       $(document).ready(function(){
         $(".bxslider2").bxSlider(); 
+        mode: 'fade',
+        captions: true,
       });
     </script>
   </head>
