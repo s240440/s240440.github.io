@@ -5,6 +5,9 @@
 
 @import "{{ site.theme }}";
 
-.container {
-    width: 80% !important;
-}
+.main-content {
+    max-width: 80rem; /* Adjusted from a smaller width */
+    margin: auto;     /* Keeps it centered */
+    padding: 20px;    /* Optional: Adjust padding to ensure content doesn’t touch the edges */
+  }
+  
