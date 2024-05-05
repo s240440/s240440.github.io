@@ -85,7 +85,7 @@ Humans consume many different kinds of beverages through life, where the alcohol
 </div>
 
 <div class="l-page">
-  <iframe src="{{ '/assets/plotly/XXXX.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
+  <iframe src="{{ '/assets/plotly/choropleth.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
 </div>
 <div id="figure7" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 7: Template
