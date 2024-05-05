@@ -24,17 +24,7 @@ Humans consume many different kinds of beverages through life, where the alcohol
 ## Beer Reviews from Data
 *Insert text here about the data set*
 
-## Top Rated Beer
-*Insert text here*
-
-<div class="l-page" style="max-width: 100%;">
-  <img src="{{ '/assets/plotly/Top10RatedBeers.png' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 0px">
-</div>
-<div id="figure1" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 1: Top 10 rated beers based on average rating.
-</div>
-
-## Across the world
+## The Breweries
 *Insert text here*
 
 <html>
@@ -75,20 +65,30 @@ Humans consume many different kinds of beverages through life, where the alcohol
   </body>
 </html>
 
-## Test for HTML
-
-<div class="l-page">
-  <iframe src="{{ '/assets/plotly/Tree_plot_more.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
-</div>
-<div id="figure6" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 6: Top 10 Words in Reviews on Countries' Best and Worst Beers
-</div>
+## The Beer Ratings
+*Insert text here*
 
 <div class="l-page">
   <iframe src="{{ '/assets/plotly/choropleth.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
 </div>
+<div id="figure5" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 5: Average Ratings of Beers Based on Location of Brewery
+</div>
+
+<div class="l-page" style="max-width: 100%;">
+  <img src="{{ '/assets/plotly/Top10RatedBeers.png' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 0px">
+</div>
+<div id="figure6" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 6: Top 10 rated beers based on average rating.
+</div>
+
+## The Beer Reviews
+
+<div class="l-page">
+  <iframe src="{{ '/assets/plotly/Tree_plot_more.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
+</div>
 <div id="figure7" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 7: Average Ratings of Beers Based on Location of Brewery
+    Figure 7: Top 10 Words in Reviews on Countries' Best and Worst Beers
 </div>
 
 ## Conclusion
