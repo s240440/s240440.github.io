@@ -44,33 +44,16 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
     <ul class="bxslider">
         <li><img src="/assets/plotly/Top10Locations.png" /></li>
         <li><img src="/assets/plotly/Bottom10Locations.png" /></li>
+        <li><img src="/assets/plotly/Bottom10Locations.png" /></li>
     </ul>
-  </body>
-</html>
-
-*Insert text here*
-
-<html>
-  <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $(".bxslider2").bxSlider(); 
-      });
-    </script>
-  </head>
-  <body>
-    <ul class="bxslider2">
-        <li><img src="/assets/plotly/Top10Breweries.png" /></li>
-        <li><img src="/assets/plotly/Bottom10Breweries.png" /></li>
-    </ul>
+    <div id="figure1" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 1: Average Ratings of Beers Based on Location of Brewery
+    </div>
+    <div id="figure2" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 2: Average Ratings of Beers Based on Location of Brewery
+    </div>
     <div id="figure3" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 3: Average Ratings of Beers Based on Location of Brewery
-    </div>
-    <div id="figure4" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 4: Average Ratings of Beers Based on Location of Brewery
     </div>
   </body>
 </html>
