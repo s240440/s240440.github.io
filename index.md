@@ -58,8 +58,8 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
   </body>
 </html>
 
-<div class="l-page" style="max-width: 100%;">
-  <iframe src="{{ '/assets/plotly/breweries_per_area.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
+<div class="l-page">
+  <iframe src="{{ '/assets/plotly/breweries_per_area.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 0px;"></iframe>
 </div>
 <div id="figure4" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 4: Ratios of Breweries Per Area [KM2].
@@ -78,7 +78,7 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
 
 *Insert text here* 
 
-<div class="l-page" style="max-width: 100%;">
+<div class="l-page">
   <img src="{{ '/assets/plotly/Top10RatedBeers.png' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px">
 </div>
 <div id="figure6" class="caption" style="text-align: center; font-size: 0.8em;">
@@ -87,7 +87,7 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
 
 ## The Beer Reviews
 
-<div class="l-page" style="max-width: 100%;">
+<div class="l-page">
   <iframe src="{{ '/assets/plotly/Tree_plot_more.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
 </div>
 <div id="figure7" class="caption" style="text-align: center; font-size: 0.8em;">
