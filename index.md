@@ -42,12 +42,12 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
   </head>
   <body>
     <ul class="bxslider">
-        <li><img src="/assets/plotly/Top10Locations.png" /></li>
+        <li><img src="/assets/plotly/Top30LocationsRating.png" /></li>
         <li><img src="/assets/plotly/Bottom10Locations.png" /></li>
         <li><img src="/assets/plotly/Bottom10Locations.png" /></li>
     </ul>
     <div id="figure1" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 1: Average Ratings of Beers Based on Location of Brewery
+    Figure 1: Top 30 Locations by Average Beer Rating.
     </div>
     <div id="figure2" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 2: Average Ratings of Beers Based on Location of Brewery
@@ -65,7 +65,7 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
   <iframe src="{{ '/assets/plotly/choropleth.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
 </div>
 <div id="figure5" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 5: Average Ratings of Beers Based on Location of Brewery
+    Figure 5: Average Ratings of Beers Based on Location of Brewery.
 </div>
 
 *Insert text here* 
