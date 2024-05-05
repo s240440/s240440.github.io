@@ -58,11 +58,19 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
   </body>
 </html>
 
+<div class="l-page" style="max-width: 100%;">
+  <img src="{{ '/assets/plotly/breweries_per_area.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 0px">
+</div>
+<div id="figure4" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 4: Top 10 rated beers based on average rating.
+</div>
+
 ## The Beer Ratings
 *Insert text here*
 
+
 <div class="l-page">
-  <iframe src="{{ '/assets/plotly/choropleth.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
+  <iframe src="{{ '/assets/plotly/choropleth.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 0px;"></iframe>
 </div>
 <div id="figure5" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 5: Average Ratings of Beers Based on Location of Brewery.
