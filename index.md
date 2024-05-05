@@ -50,19 +50,19 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
     Figure 1: Top Locations by Average Beer Rating.
     </div>
     <div id="figure2" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 2: Top Locations by Number of Breweries.
+    Figure 2: Top Locations with the Most Active Breweries.
     </div>
     <div id="figure3" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 3: Top Locations by Number of Active Users.
+    Figure 3: Top Locations with the Most Active Users.
     </div>
   </body>
 </html>
 
-<div class="l-page">
-  <iframe src="{{ '/assets/plotly/breweries_per_area.html' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 0px;"></iframe>
+<div class="l-page" style="max-width: 100%;">
+  <iframe src="{{ '/assets/plotly/breweries_per_area.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
 </div>
-<div id="figure5" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 5: Average Ratings of Beers Based on Location of Brewery.
+<div id="figure4" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 4: Ratios of Breweries Per Area [KM2].
 </div>
 
 ## The Beer Ratings
@@ -79,7 +79,7 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
 *Insert text here* 
 
 <div class="l-page" style="max-width: 100%;">
-  <img src="{{ '/assets/plotly/Top10RatedBeers.png' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 0px">
+  <img src="{{ '/assets/plotly/Top10RatedBeers.png' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px">
 </div>
 <div id="figure6" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 6: Top 10 rated beers based on average rating.
@@ -87,7 +87,7 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
 
 ## The Beer Reviews
 
-<div class="l-page">
+<div class="l-page" style="max-width: 100%;">
   <iframe src="{{ '/assets/plotly/Tree_plot_more.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
 </div>
 <div id="figure7" class="caption" style="text-align: center; font-size: 0.8em;">
