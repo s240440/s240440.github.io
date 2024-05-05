@@ -46,6 +46,8 @@ The journey of the beer review investigation begins with a dataset from [RateBee
   </body>
 </html>
 
+*Insert text here*
+
 <html>
   <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
@@ -62,6 +64,12 @@ The journey of the beer review investigation begins with a dataset from [RateBee
         <li><img src="/assets/plotly/Top10Breweries.png" /></li>
         <li><img src="/assets/plotly/Bottom10Breweries.png" /></li>
     </ul>
+    <div id="figure3" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 3: Average Ratings of Beers Based on Location of Brewery
+    </div>
+    <div id="figure4" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 4: Average Ratings of Beers Based on Location of Brewery
+    </div>
   </body>
 </html>
 
@@ -74,6 +82,8 @@ The journey of the beer review investigation begins with a dataset from [RateBee
 <div id="figure5" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 5: Average Ratings of Beers Based on Location of Brewery
 </div>
+
+*Insert text here* 
 
 <div class="l-page" style="max-width: 100%;">
   <img src="{{ '/assets/plotly/Top10RatedBeers.png' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 0px">
