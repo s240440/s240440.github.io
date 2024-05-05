@@ -81,14 +81,14 @@ Humans consume many different kinds of beverages through life, where the alcohol
   <iframe src="{{ '/assets/plotly/Tree_plot_more.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
 </div>
 <div id="figure6" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 6: Template
+    Figure 6: Top 10 Words in Reviews on Countries' Best and Worst Beers
 </div>
 
 <div class="l-page">
   <iframe src="{{ '/assets/plotly/choropleth.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
 </div>
 <div id="figure7" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 7: Template
+    Figure 7: Average Ratings of Beers Based on Location of Brewery
 </div>
 
 ## Conclusion
