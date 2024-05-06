@@ -59,6 +59,21 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
 </html>
 
 <div class="l-page">
+  <div class="image" id="figure4">
+    <img src="/assets/plotly/BelgiumBeerRatings.png">
+    <div class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 4: Ratios of Breweries Per Area [KM2].
+    </div>
+  </div>
+  <div class="image" id="figure5">
+    <img src="/assets/plotly/NorwayBeerRatings.png">
+    <div class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 5: Ratios of Breweries Per Area [KM2].
+    </div>
+</div>
+
+
+<div class="l-page">
   <iframe src="{{ '/assets/plotly/breweries_per_area.html' | relative_url }}" frameborder='0' scrolling='no' height="700px" width="1100px" style="border: 0px;"></iframe>
 </div>
 <div id="figure4" class="caption" style="text-align: center; font-size: 0.8em;">
