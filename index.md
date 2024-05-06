@@ -59,7 +59,7 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
 </html>
 
 <div class="l-page">
-  <iframe src="{{ '/assets/plotly/NorwayAndGermanyBeerRatings.png' | relative_url }}" frameborder='0' scrolling='no' height="700px" width="1100px" style="border: 0px;"></iframe>
+  <iframe src="{{ '/assets/plotly/NorwayAndGermanyBeerRatings.png' | relative_url }}" frameborder='0' scrolling='no' height="700px" width="100%" style="border: 0px;"></iframe>
 </div>
 <div id="figure4" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 4: Norway and Germany Global Beer Ratings.
