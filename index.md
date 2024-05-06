@@ -64,7 +64,7 @@ Now, looking at the overall, average beer ratings for some of the countries, we 
 
 
 <div class="l-page" style="max-width: 100%;">
-  <img src="{{ 'assets/plotly/NorwayAndGermanyBeerRatings.png' | relative_url }}" frameborder='0' scrolling='yes' height="1500px" width="100%" style="border: 0px">
+  <img src="{{ 'assets/plotly/NorwayAndGermanyBeerRatings.png' | relative_url }}" frameborder='0' scrolling='no' height="auto;" width="100%" style="border: 0px">
 </div>
 <div id="figure4" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 4: Norway and Germany Global Beer Ratings.
