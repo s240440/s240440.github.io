@@ -83,7 +83,7 @@ If we want to get a more fair depiction of the brewery landscape, we should take
 
 
 ## The Beer Ratings
-To continue the story, we want to dive deeper into the opinions from different countries towards eachother and themselves. This is where things get more interesting as you can unearth some of the sentiments we have towards beers from our own country and beers overseas. On [Figure 6](#figure6) you can more easily see which countries has different ratings, and we see the central part of Europe being mostly in the green, while the southern part of eastern europe are below what would be considered average. Additionally the US are well considered, while South America seems to be mostly in the red. 
+To continue the story, we want to dive deeper into the opinions from different countries towards eachother and themselves. This is where things get more interesting as you can unearth some of the sentiments we have towards beers maybe from your own country and beers overseas. On [Figure 6](#figure6) you can more easily see which countries has different ratings, and we see the central part of Europe being mostly in the green, while the southern part of eastern europe are below what would be considered average. Looking at America, we see the northern and central part having higher average ratings than in the south.
 
 <div class="l-page">
   <iframe src="{{ '/assets/plotly/choropleth_globalrating.html' | relative_url }}" frameborder='0' scrolling='no' height="800px" width="100%" style="border: 0px;"></iframe>
@@ -92,6 +92,8 @@ To continue the story, we want to dive deeper into the opinions from different c
     Figure 6: Average Ratings of Beers Based on Location of Brewery.
 </div>
 
+It is no secret that beer changes during transport [## https://onlinelibrary.wiley.com/doi/full/10.1002/jib.535 ##], and that the water conditions and local ingredients will determine the quality of the produce. An old saying says that “beer is best enjoyed in the shadows of the brewery”, and this likely has truth to it. Back then, the export of beer could have been significantly worse than it is today which could leave a mark on these countries’ rating from back then. To truly dive into this aspect, we have averaged the ratings from users of different countries of interest towards other countries globally, to see how the ratings changes. Particularly interesting is the of the countries’ ratings of themselves; are they positive or negative? Who is the most positive about beer? Look at Italy for example. Are there countries whose ratings could be affected by outside circumstances? Look at for example China. Take a look on Figure [### INTERACTIVE ##] and use the dropdown menu to see how the landscape changes.
+
 <div class="l-page">
   <iframe src="{{ '/assets/plotly/choropleth.html' | relative_url }}" frameborder='0' scrolling='no' height="800px" width="100%" style="border: 0px;"></iframe>
 </div>
@@ -99,7 +101,12 @@ To continue the story, we want to dive deeper into the opinions from different c
     Figure 7: Average Ratings of Beers Based on Location of Brewery.
 </div>
 
+With newfound knowledge we return back from that time capsule and we remember that it is exactly that. Today, the beer market has changed drastically, but our opinions of one anothers’ beer can easily have stayed the same. Of course, beer can not be condensed into a single number, as there is such a large variety with their own different nuances. So far we have only looked at these numbers and tried drawing conclusions, with some success. Based on the ratings themselves countries such as Germany and England seem quite critical, while the US generally forms a good opinion of many brews globally. Finally it is time to dive into what people say.
+
+
 ## The Beer Reviews
+On Figure [## tree map ##] we have chosen the english reviews from different countries on other, and their own, countries’ best and worst rated beer globally. You can see the top ten words used, and with the percentage of times that word is used in a positive context, when describing that beer.
+With this beverage, it is hard to say what is positive and what is negative - sometimes you want a beer to be bitter, but not bitter, and sometimes you might want it to be sweeter but not sweet. Naturally, as we only look at the english reviews, the reviews made in their native languages are lost. Despite this, it manages to encapsulate most of the sentiment for most of the beers; so we urge you to take a good look, and see if you can discover some of the funny remarks.
 
 <div class="l-page">
   <iframe src="{{ '/assets/plotly/Tree_plot.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
@@ -109,7 +116,7 @@ To continue the story, we want to dive deeper into the opinions from different c
 </div>
 
 ## Conclusion
-
+While everyone is different in their own way, we all form our own opinions of the things we enjoy, and this is no different. We can see that people from some nationalities can be quite critical of the things they enjoy, and making it known to the world, but we also see the enjoyment it brings. Whether a country has a large produce, many breweries or many users on a beer rating forum, every opinion is valid, and we can see that in the end; good beer is good no matter where you are from. Fantastically, even if beer is regarded as bad, it is often not because it is a bad beverage, it seems like sometimes, it is simply not good in the context of being a beer. Other times, however, you can safely trust the ratings, whether that is because of export or it being a bad brew.
 * * *
 
 ## References
