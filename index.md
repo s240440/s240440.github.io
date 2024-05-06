@@ -43,26 +43,30 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
   <body>
     <ul class="bxslider">
         <li><img src="/assets/plotly/Top30LocationsRating.png" /></li>
-        <li><img src="/assets/plotly/Bottom10Locations.png" /></li>
-        <li><img src="/assets/plotly/Bottom10Locations.png" /></li>
+        <li><img src="/assets/plotly/Top30LocationsBreweries.png" /></li>
+        <li><img src="/assets/plotly/Top30LocationsUsers.png" /></li>
     </ul>
     <div id="figure1" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 1: Top 30 Locations by Average Beer Rating.
+    Figure 1: Top Locations by Average Beer Rating.
     </div>
     <div id="figure2" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 2: Average Ratings of Beers Based on Location of Brewery
+    Figure 2: Top Locations with the Most Active Breweries.
     </div>
     <div id="figure3" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 3: Average Ratings of Beers Based on Location of Brewery
+    Figure 3: Top Locations with the Most Active Users.
     </div>
   </body>
 </html>
 
 <div class="l-page">
+<<<<<<< HEAD
   <iframe src="{{ '/assets/plotly/breweries_per_area.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="1000px" style="border: 0px;"></iframe>
+=======
+  <iframe src="{{ '/assets/plotly/breweries_per_area.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
+>>>>>>> 5659519c08a36ac0aa07a533396285c35419107b
 </div>
-<div id="figure5" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 5: Average Ratings of Beers Based on Location of Brewery.
+<div id="figure4" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 4: Ratios of Breweries Per Area [KM2].
 </div>
 
 ## The Beer Ratings
@@ -70,7 +74,11 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
 
 
 <div class="l-page">
+<<<<<<< HEAD
   <iframe src="{{ '/assets/plotly/choropleth.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
+=======
+  <iframe src="{{ '/assets/plotly/choropleth.html' | relative_url }}" frameborder='0' scrolling='no' height="800px" width="100%" style="border: 0px;"></iframe>
+>>>>>>> 5659519c08a36ac0aa07a533396285c35419107b
 </div>
 <div id="figure5" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 5: Average Ratings of Beers Based on Location of Brewery.
@@ -78,8 +86,8 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
 
 *Insert text here* 
 
-<div class="l-page" style="max-width: 100%;">
-  <img src="{{ '/assets/plotly/Top10RatedBeers.png' | relative_url }}" frameborder='0' scrolling='yes' height="600px" width="100%" style="border: 0px">
+<div class="l-page">
+  <img src="{{ '/assets/plotly/Top10RatedBeers.png' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px">
 </div>
 <div id="figure6" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 6: Top 10 rated beers based on average rating.
