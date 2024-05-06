@@ -62,8 +62,9 @@ Firstly, we want to scratch the surface of the data, and show which countries ar
 
 Now, looking at the overall, average beer ratings for some of the countries, we see that Norway comes out slightly on top, though they have only won two international awards from the World Beer cup in 2008. In contrast a country such as Germany and and the second place runner up Belgium amass 136 and 58 awards respectively, in the years the data set spans over. And they both continue to win plenty awards even to todays date, so perhaps the overall ratings have been skewed now. [[5]](#ref5) From this it is clear that the majority of the reviews are made by amateur beer connoisseurs, and that the reviews do not reflect all of the individuals from the different countries. They definitely do not follow the actual experts. But there must be a reason for why Norway edges out to the top of the leaderboards, and it can be understood better, when we realise, that for example Germany also produces a lot of beers, with the largest amount of breweries in Europe. While they both have the capability of producing world-class beer, Norway might simply produce less, that are of consistently high quality without anything being particularly award winning.
 
+
 <div class="l-page" style="max-width: 100%;">
-  <iframe src="{{ '/assets/plotly/NorwayAndGermanyBeerRatings.png' | relative_url }}" frameborder='0' scrolling='no' height="650px" width="100%" style="border: 0px;"></iframe>
+  <img src="{{ 'assets/plotly/NorwayAndGermanyBeerRatings.png' | relative_url }}" frameborder='0' scrolling='yes' height="1500px" width="100%" style="border: 0px">
 </div>
 <div id="figure4" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 4: Norway and Germany Global Beer Ratings.
