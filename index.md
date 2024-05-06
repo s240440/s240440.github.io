@@ -59,25 +59,18 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
 </html>
 
 <div class="l-page">
-  <div class="image" id="figure4">
-    <img src="/assets/plotly/BelgiumBeerRatings.png">
-    <div class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 4: Ratios of Breweries Per Area [KM2].
-    </div>
-  </div>
-  <div class="image" id="figure5">
-    <img src="/assets/plotly/NorwayBeerRatings.png">
-    <div class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 5: Ratios of Breweries Per Area [KM2].
-    </div>
+  <iframe src="{{ '/assets/plotly/NorwayAndGermanyBeerRatings.png' | relative_url }}" frameborder='0' scrolling='no' height="700px" width="1100px" style="border: 0px;"></iframe>
+</div>
+<div id="figure4" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 4: Norway and Germany Global Beer Ratings.
 </div>
 
 
 <div class="l-page">
   <iframe src="{{ '/assets/plotly/breweries_per_area.html' | relative_url }}" frameborder='0' scrolling='no' height="700px" width="1100px" style="border: 0px;"></iframe>
 </div>
-<div id="figure4" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 4: Ratios of Breweries Per Area [KM2].
+<div id="figure5" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 5: Ratios of Breweries Per Area [KM2].
 </div>
 
 ## The Beer Ratings
@@ -87,15 +80,15 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
 <div class="l-page">
   <iframe src="{{ '/assets/plotly/choropleth_globalrating.html' | relative_url }}" frameborder='0' scrolling='no' height="800px" width="100%" style="border: 0px;"></iframe>
 </div>
-<div id="figure5" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 5: Average Ratings of Beers Based on Location of Brewery.
+<div id="figure6" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 6: Average Ratings of Beers Based on Location of Brewery.
 </div>
 
 <div class="l-page">
   <iframe src="{{ '/assets/plotly/choropleth.html' | relative_url }}" frameborder='0' scrolling='no' height="800px" width="100%" style="border: 0px;"></iframe>
 </div>
-<div id="figure5" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 5: Average Ratings of Beers Based on Location of Brewery.
+<div id="figure7" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 7: Average Ratings of Beers Based on Location of Brewery.
 </div>
 
 ## The Beer Reviews
@@ -103,8 +96,8 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
 <div class="l-page">
   <iframe src="{{ '/assets/plotly/Tree_plot.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
 </div>
-<div id="figure6" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 6: Top 10 Words in Reviews on Countries' Best and Worst Beers
+<div id="figure8" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 8: Top 10 Words in Reviews on Countries' Best and Worst Beers
 </div>
 
 ## Conclusion
