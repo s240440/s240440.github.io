@@ -102,7 +102,6 @@ It is no secret that beer changes during transport, [[7]](#ref7) and that the wa
 
 With newfound knowledge we return back from that time capsule and we remember that it is exactly that. Today, the beer market has changed drastically, but our opinions of one anothers’ beer can easily have stayed the same. Of course, beer can not be condensed into a single number, as there is such a large variety with their own different nuances. So far we have only looked at these numbers and tried drawing conclusions, with some success. Based on the ratings themselves countries such as Germany and England seem quite critical, while the US generally forms a good opinion of many brews globally. Finally it is time to dive into what people say.
 
-
 ## The Beer Reviews
 On [Figure 8](#figure8) we have chosen the english reviews from different countries on other, and their own, countries’ best and worst rated beer globally. You can see the top ten words used, and with the percentage of times that word is used in a positive context, when describing that beer.
 With this beverage, it is hard to say what is positive and what is negative - sometimes you want a beer to be bitter, but not bitter, and sometimes you might want it to be sweeter but not sweet. Naturally, as we only look at the english reviews, the reviews made in their native languages are lost. Despite this, it manages to encapsulate most of the sentiment for most of the beers; so we urge you to take a good look, and see if you can discover some of the funny remarks.
