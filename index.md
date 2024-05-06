@@ -96,7 +96,7 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
 ## The Beer Reviews
 
 <div class="l-page">
-  <iframe src="{{ '/assets/plotly/Tree_plot_more.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
+  <iframe src="{{ '/assets/plotly/Tree_plot.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
 </div>
 <div id="figure7" class="caption" style="text-align: center; font-size: 0.8em;">
     Figure 7: Top 10 Words in Reviews on Countries' Best and Worst Beers
