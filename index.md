@@ -83,23 +83,13 @@ As to get a better ideas of what beers the common man is likely to drink, we hav
     Figure 5: Average Ratings of Beers Based on Location of Brewery.
 </div>
 
-
-*Insert text here* 
-
-<div class="l-page">
-  <img src="{{ '/assets/plotly/Top10RatedBeers.png' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px">
-</div>
-<div id="figure6" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 6: Top 10 rated beers based on average rating.
-</div>
-
 ## The Beer Reviews
 
 <div class="l-page">
   <iframe src="{{ '/assets/plotly/Tree_plot.html' | relative_url }}" frameborder='0' scrolling='no' height="600px" width="100%" style="border: 0px;"></iframe>
 </div>
-<div id="figure7" class="caption" style="text-align: center; font-size: 0.8em;">
-    Figure 7: Top 10 Words in Reviews on Countries' Best and Worst Beers
+<div id="figure6" class="caption" style="text-align: center; font-size: 0.8em;">
+    Figure 6: Top 10 Words in Reviews on Countries' Best and Worst Beers
 </div>
 
 ## Conclusion
