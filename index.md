@@ -2,7 +2,8 @@
 layout: default
 
 title: Exploring the Landscape of Beer Reviews
-subtitle: A Deep Dive into Inter- and Cross-National Opinions on Beers. Are Some Countries More Opinionated Than Others?
+subtitle: A deep dive into inter- and cross-national opinions on beers
+subsubtitle: Are some countries more opinionated than others?
 
 authors:
   - name: Martin Nguyen - 
